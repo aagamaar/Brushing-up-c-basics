@@ -1,7 +1,6 @@
 #include <stdio.h>
 int main()
 {
-    printf("I like you very much.");
-    printf("I love Kochi !");
+    printf("I like you very much.\nI love Kochi !");
     return 0;
 }
