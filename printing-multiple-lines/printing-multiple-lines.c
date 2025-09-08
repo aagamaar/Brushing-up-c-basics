@@ -12,13 +12,18 @@ int main()
 
     // Compiler ignores this line
 
-    int a = 10;
-    float b = 2.4;
-    char c = 't';
+    //Variable declaration
+    int a ; //2 to 4 bytes
+
+    //Variable initialization
+    a=10;
+    
+    float b = 2.4; // 4 bytes
+    char c = 't'; // 1 byte
 
     printf("int a = %d\n", a);
     printf("int b = %f\n", b);
     printf("int c = %c\n", c);
-    
+
     return 0;
 }
