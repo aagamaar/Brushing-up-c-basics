@@ -17,8 +17,10 @@ int main()
 
     //Variable initialization
     a=10;
+
+    //Constant Variable
+    const float b = 2.4; // 4 bytes
     
-    float b = 2.4; // 4 bytes
     char c = 't'; // 1 byte
 
     printf("int a = %d\n", a);
